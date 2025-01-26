@@ -30,10 +30,10 @@
   padding: 8px 16px;
 }
 
-.search-btn {
+.search-btn, .load-more-btn {
   border-radius: 8px;
   padding: 8px 16px;
-  width: 91px;
+  
   height: 40px;
   background-color: #4e75ff;
   font-weight: 500;
@@ -135,4 +135,15 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+.load-more-btn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;margin-top: 32px;
+  margin-bottom: 44px;
+}
+
+.load-more-btn.is-hidden{
+  display: none;
 }
